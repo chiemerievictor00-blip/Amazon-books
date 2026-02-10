@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border: solid black;
+}
+
+.accordion p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.accordion summary {
+  font-weight: bolder;
+  color: blue;
+}

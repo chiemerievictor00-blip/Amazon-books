@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(21, 172, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.header a {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+.header h3 {
+  font-size: 15px;
+}
+
+.navbar img {
+  width: 80px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+navlinks ul {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+navlinks ul li {
+  padding-top: 3.5px;
+  font-weight: 800;
+}
+
+.right-navlinks {
+  padding-left: 400px;
+  gap: 10px;
+}
+
+.right-navlinks .btn2 {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.right-navlinks .btn1 {
+  background-color: rgb(13, 13, 197);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/assets/readingstudents.jpg);
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herotext {
+  max-width: 520px;
+  margin-right: 500px;
+  color: white;
+}
+
+.herotext {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.heroform {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.heroform input {
+  padding: 14px;
+  font-size: 16px;
+  border: solid rgb(55, 245, 55);
+  border-radius: 6px;
+}
+
+.herotext button {
+  background-color: rgb(41, 228, 41);
+  padding: 15px;
+  border: none;
+  border: solid white;
+  border-radius: 6px;
+}
+
+.herotext label {
+  margin-right: 9px;
+}
+
+.herotext p {
+  padding-top: 9px;
+}
+
+.herocheckbox a {
+  color: blue;
+  text-decoration: underline;
+}
