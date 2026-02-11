@@ -70,11 +70,10 @@ navlinks ul li {
   border-radius: 6px;
 }
 
-.hero {
+.hero {  
   background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/readingstudents.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/readingstudents.jpg);
   min-height: 75vh;
- 
   background-size: cover;
   background-position: center;
   display: flex;
